@@ -1,0 +1,42 @@
+This is the text file with the parameter information for the data analyses:
+
+7.15             Parameter delta_x for distances between the two tips of a double-tip probe (decimal number)                     -> must be in line 3
+
+0020000         Sampling frequency (Integer number - please imput using 7 digits: e.g. ##20000 for 20000 Hz)                    -> must be in line 5
+
+01000           Correlation steps (Integer number of steps in auto- and cross-correlation
+                please imput using 7 digits: e.g. e.g. #1000 for 1000 steps)                                                    -> must be in line 7
+
+00045           sampling duration (Integer number of sampling time per sensor in seconds; please imput using 5 digits: e.g. ###45 for 45 seconds
+                                                                                                                                -> must be in line 10
+
+2               Number of probes (Integer number of probes sampled simultaneously: number between 1 and 8                       -> must be in line 13
+
+0015            Number of non-overlapping segments for correlation analyses: Integer number of number of segments; please imput using 4 digits:
+                e.g. ##15 for 15 segments                                                                                       -> must be in line 15
+
+0.1             Container size of PDf distribution of Voltage raw signal: (decimal number)                                      -> must be in line 18
+
+040000          Max number of bubbles (Integer number of bubbles for allocation of array for calculation
+                - please imput using 6 digits: e.g. #40000 for 40000 bubbles)                                                  -> must be in line 20
+
+0.5             Threshold for air-water interfaces (decimal number for basic calculations)                                      -> must be in line 23
+
+0.5             Container size of PDF distribution of Chord lengths: (decimal number)                                           -> must be in line 25
+
+0.1             Container size of PDF distribution of Chord time: (decimal number)                                              -> must be in line 27
+
+0.0             Minimum Court length (decimal number)                                                                           -> must be in line 29
+
+20.0            Maximum Court length (decimal number)                                                                           -> must be in line 31
+
+0.0             Minimum Court time (decimal number)                                                                             -> must be in line 33
+
+10.0            Maximum Court time (decimal number)     									-> must be in line 35
+
+1               Integer for cluster and particle grouping analyses: 0 for no analyses, 1 for cluster with chord lengths, 
+                2 for cluster with chord time											-> must be in line 37 
+
+0.1             Factor for implementing in the cluster criterion for cluster analysis with median criterion (0.1 = 10%)		-> must be in line 40
+
+1.0             Factor for implementing in clusteranalyses with constant length/time criterion					-> must be in line 42
