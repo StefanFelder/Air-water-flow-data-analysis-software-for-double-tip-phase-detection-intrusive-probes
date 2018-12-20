@@ -1,8 +1,11 @@
-<h1>Air-water flow data analysis software for double-tip phase-detection intrusive probes</h1>
+<h1>Air-water flow data analysis software for double-tip phase-detection intrusive probes (https://doi.org/10.5281/zenodo.2448250)</h1>
 
 <p>The software is able to calculate a wide range of air-water flow properties in high-velocity air-water flows typical for hydraulic engineering applications. The software is suitable for two simultaneously sampled signals of a phase-detection intrusive probe including one double-tip probe or two single tip probes.</p>
 <p>The software was developed by Dr Stefan Felder (UNSW Sydney) during his PhD project (Felder 2013) and has been used in many scientific publications for post-processing of conductivity probe signals. If you decide to use the software for post-processing of your data, please credit the creator of the work as:</p>
 <p>Felder, S. (2013). “Air-Water Flow Properties on Stepped Spillways for Embankment Dams: Aeration, Energy Dissipation and Turbulence on Uniform, Non-Uniform and Pooled Stepped Chutes.” PhD thesis, The University of Queensland.</p>
+and provide details on the release version of the software as:
+<p>Felder, S. (2018). “StefanFelder/Air-water-flow-data-analysis-software-for-double-tip-phase-detection-intrusive-probes (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.2448251</p>
+
 <p>The software has been already made public as a digital appendix in the PhD thesis of Felder (2013) and is still available for download here: https://espace.library.uq.edu.au/view/UQ:301329. Note that the readme file of the digital appendix is also provided as a PDF document for further documentation on the software (Note that the digital appendix refers to two further data processing tools including for two side-by-side single tip probes and the triple decomposition technique for instationary air-water flows; the present software can be used also for two side-by-side probes and the triple decomposition software will be made available in a separate repository).</p> 
 <p>The software is able to analyse two simultaneously sampled raw Voltage signals of double-tip phase-detection intrusive probes (or two single tip probes) including conductivity and fiber-optical probes:</p>
 
